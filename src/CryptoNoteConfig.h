@@ -115,6 +115,8 @@ struct CheckpointData {
   const char* blockId;
 };
 
+const uint64_t MONEY_SUPPLY = (uint64_t)(-1);
+  
 #ifdef __GNUC__
 __attribute__((unused))
 #endif
